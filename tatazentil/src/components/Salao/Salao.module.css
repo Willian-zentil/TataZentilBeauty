@@ -1,0 +1,54 @@
+.salao {
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 80px 0;
+}
+
+.salao h2 {
+    color: #C1A51E;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.salao p {
+    font-family: 'Alice', serif;
+    color: #887416;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.boxAdress {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.info {
+    width: 50%;
+}
+
+.salaoImg {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.salao a {
+    font-size: 27px;
+    font-family: 'Alice', serif;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.salao a img {
+    margin-right: 22px;
+}

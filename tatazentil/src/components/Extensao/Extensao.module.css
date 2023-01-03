@@ -1,0 +1,28 @@
+.extensao {
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #C1A51E;
+    border-bottom: 1px solid #C1A51E;
+    padding: 80px 0;
+}
+
+.extensao p,
+.extensao h2 {
+    font-family: 'Alice', serif;
+    margin-top: 0;
+}
+
+.extensao p {
+    font-size: 18px;
+    color: #887416;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+.extensao h2 {
+    color: #C1A51E;
+    font-size: 46px;
+    font-weight: 600;
+}

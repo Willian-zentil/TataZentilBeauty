@@ -1,18 +1,23 @@
 import React from 'react'
 import styles from './Header.module.css'
+import bannerHeader from '../../images/curso-volume-russo-lash-design.png'
+import logo from '../../images/sub marca fundo transparente 1.png'
 
 const Header = () => {
   return (
-    <header className={styles.container}>
-      <div className={styles.menu}>
-        <img src='' alt='Logo TataZentil'/>
-        <ul>
-          <li>Extensão De Cílios</li>
-          <li>Design Sombrancelha</li>
-          <li>Contato</li>
-        </ul>
+    <header id='header' className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.menu}>
+          <a href='#header'><img src={logo} alt='Logo TataZentil' className={styles.logo} /></a>
+          <ul>
+            <li><a href='#extensao'>Extensão De Cílios</a></li>
+            <li><a href=''>Design Sombrancelha</a></li>
+            <li><a href=''>Contato</a></li>
+          </ul>
+        </div>
+        <span className={styles.layer}>TataZentil Beauty</span>
       </div>
-      <span className={styles.layer}>TataZentil Beauty</span>
+      {/* <img className={styles.banner} src={bannerHeader} alt='Logo TataZentil' /> */}
     </header>
   )
 }
