@@ -16,8 +16,22 @@ function MiniBanners() {
                 slidesPerView={3}
                 loop={true}
                 autoplay={{
-                    delay: 7500,
+                    delay: 17500,
                     disableOnInteraction: false,
+                }}
+                breakpoints={{
+                    "300": {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    "640": {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    "992": {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
                 }}
                 modules={[Autoplay]}
             >

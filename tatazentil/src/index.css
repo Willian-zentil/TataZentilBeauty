@@ -23,3 +23,13 @@ html {
   max-width: 400px;
   height: 320px;
 }
+
+@media(max-width: 992px){
+  .desktop {
+    display: none!important;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+}

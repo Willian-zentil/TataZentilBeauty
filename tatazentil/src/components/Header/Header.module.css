@@ -1,5 +1,6 @@
-
-a, li, span {
+a,
+li,
+span {
     font-family: 'Alice', serif;
 }
 
@@ -13,12 +14,12 @@ a, li, span {
     flex-direction: column;
 }
 
-.banner{
+.banner {
     max-width: 100%;
     filter: brightness(0.5);
     width: 100%;
     position: absolute;
-    top: 0; 
+    top: 0;
 }
 
 .menu {
@@ -62,10 +63,26 @@ a, li, span {
     color: #fff;
     font-size: 46px;
     margin: 40px auto 0;
-}   
+}
 
 .header {
     background-image: url(../../images/curso-volume-russo-lash-design.png);
     background-size: cover;
     display: block;
+}
+
+/*mobile */
+@media(max-width: 992px) {
+    .layer {
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 100px;
+        padding: 20px;
+    }
+
+    .menu {
+        justify-content: center;
+    }
 }

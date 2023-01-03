@@ -12,3 +12,11 @@
     max-width: 300px;
     width: 300px;
 }
+
+/*mobile */
+@media(max-width: 992px) {
+    .MiniBanners {
+        height: 370px;
+    }
+}
+
