@@ -52,3 +52,37 @@
 .salao a img {
     margin-right: 22px;
 }
+
+@media(max-width: 992px){
+    .salao {
+        padding: 0 15px 38px;
+        max-width: 290px;
+    }
+
+    .salaoImg {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .salao h2 {
+        text-align: center;
+        margin: 0 0 38px;
+    }
+
+    .salao a {
+        margin-top: 38px;
+    }
+
+    .salao a img {
+        margin-right: 15px;
+        max-width: 31px;
+    }
+
+    .boxAdress {
+        flex-direction: column;
+    }
+}

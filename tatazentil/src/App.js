@@ -16,7 +16,6 @@ function App() {
       <Extensao />
       <TipoTecnicas />
       <Salao />
-      Tata zentil
     </Fragment>
   );
 }

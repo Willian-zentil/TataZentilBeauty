@@ -31,6 +31,16 @@ function TipoTecnicas() {
                 slidesPerView={2}
                 loop={true}
                 navigation={true}
+                breakpoints={{
+                    "300": {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    "640": {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                }}
                 modules={[Navigation]}
             >
                 {imageArray.map((item, index) => {

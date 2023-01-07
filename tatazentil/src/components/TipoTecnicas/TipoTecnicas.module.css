@@ -10,6 +10,7 @@
 
 .tipoTecnicas img {
     width: 400px;
+    height: 400px;
 }
 
 .tipoTecnicas .slider {
@@ -33,4 +34,19 @@
     margin: 12px 0;
     line-height: 32px;
     letter-spacing: 0.05em;
+}
+
+@media(max-width: 992px){
+    .tipoTecnicas p {
+        padding: 38px 15px;
+    }
+
+    .tipoTecnicas img {
+        width: 290px;
+        height: 290px;
+    }
+
+    .tipoTecnicas .slider {
+        max-width: unset;
+    }
 }
