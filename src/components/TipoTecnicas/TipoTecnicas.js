@@ -25,7 +25,7 @@ function TipoTecnicas() {
     ]
 
     return (
-        <section className={styles.tipoTecnicas}>
+        <section className={styles.tipoTecnicas} id="tecnicas">
             <Swiper
                 spaceBetween={50}
                 slidesPerView={2}

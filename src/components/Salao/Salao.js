@@ -21,14 +21,15 @@ function Salao() {
     })
 
     return (
-        <section className={styles.salao}>
+        <section className={styles.salao} id="contato">
             <h2>Visite Nosso Salão</h2>
             <div className={styles.boxAdress}>
                 <img className={styles.salaoImg} src={imgSalao} />
                 <div className={styles.info}>
-                    <p>Endereço</p>
-                    <p>Rua tal tal tal  11-11</p>
-                    <p>centro - bauru </p>
+                    <p className={styles.uppercase}>Endereço</p>
+                    <p>Av. Comendador José da Silva Martha</p>
+                    <p>25-66 - Vila Sao Francisco</p>
+                    <p>Bauru - SP</p>
                     {isLoaded && <Map />}
                 </div>
             </div>

@@ -66,9 +66,10 @@ span {
 }
 
 .header {
-    background-image: url(../../images/curso-volume-russo-lash-design.png);
+    background-image: url(../../images/Image.jpeg);
     background-size: cover;
     display: block;
+    background-position: center;
 }
 
 /*mobile */

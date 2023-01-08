@@ -10,8 +10,8 @@ const Header = () => {
           <a href='#header'><img src={logo} alt='Logo TataZentil' className={styles.logo} /></a>
           <ul className='desktop'>
             <li><a href='#extensao'>Extensão De Cílios</a></li>
-            <li><a href=''>Design Sombrancelha</a></li>
-            <li><a href=''>Contato</a></li>
+            <li><a href='#tecnicas'>Técnicas para Cílios</a></li>
+            <li><a href='#contato'>Contato</a></li>
           </ul>
         </div>
         <span className={styles.layer}>TataZentil Beauty</span>

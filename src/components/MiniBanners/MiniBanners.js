@@ -4,10 +4,13 @@ import { Autoplay } from "swiper";
 
 import 'swiper/css';
 import styles from './MiniBanners.module.css'
-import image from '../../images/Screenshot.png'
+import image1 from '../../images/apresentacao-1.JPG'
+import image2 from '../../images/apresentacao-2.JPG'
+import image3 from '../../images/apresentacao-3.jpeg'
+import image5 from '../../images/apresentacao-5.JPG'
 
 function MiniBanners() {
-    const imageArray = [image, image, image, image, image]
+    const imageArray = [image1, image2, image3, image5]
 
     return (
         <section className={styles.MiniBanners}>
@@ -16,7 +19,7 @@ function MiniBanners() {
                 slidesPerView={3}
                 loop={true}
                 autoplay={{
-                    delay: 17500,
+                    delay: 5500,
                     disableOnInteraction: false,
                 }}
                 breakpoints={{
