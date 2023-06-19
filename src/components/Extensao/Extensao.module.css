@@ -10,21 +10,13 @@
 .extensao p,
 .extensao h2 {
     font-family: 'Alice', serif;
-    margin-top: 0;
-}
-
-.extensao p {
-    font-size: 18px;
-    color: #887416;
-    line-height: 32px;
-    letter-spacing: 0.05em;
-    margin-bottom: 0;
 }
 
 .extensao h2 {
     color: #C1A51E;
     font-size: 46px;
     font-weight: 600;
+    margin-top: 0;
 }
 
 @media(max-width: 992px){

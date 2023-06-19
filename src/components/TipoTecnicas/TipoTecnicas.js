@@ -14,12 +14,17 @@ function TipoTecnicas() {
     const imageArray = [
         {
             image: imgModelo1,
-            title: 'Técnica Fio a Fio',
+            title: 'Volumes Básicos',
             text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
         },
         {
             image: imgModelo2,
-            title: 'Técnica Lash Design',
+            title: 'Volumes intermediário',
+            text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
+        },
+        {
+            image: imgModelo2,
+            title: 'Volumes mega',
             text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
         }
     ]

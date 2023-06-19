@@ -4,6 +4,7 @@ import MiniBanners from './components/MiniBanners/MiniBanners';
 import Extensao from './components/Extensao/Extensao';
 import TipoTecnicas from './components/TipoTecnicas/TipoTecnicas';
 import Salao from './components/Salao/Salao';
+import RatingClients from './components/RatingClients/RatingClients';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <MiniBanners />
       <Extensao />
       <TipoTecnicas />
+      <RatingClients />
       <Salao />
     </Fragment>
   );

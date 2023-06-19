@@ -1,0 +1,39 @@
+.containerRating {
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeInherit.css-1vooibu-MuiSvgIcon-root {
+    color: #faaf00;
+}
+
+.boxClient {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+}
+
+.boxClient p {
+    color: #fff;
+    text-align: start;
+}
+
+.containerBlackground {
+    background-color: #4B4B4D;
+}
+
+.nameStyle {
+    color: #faaf00!important;
+    white-space: nowrap;
+}
+
+.commentStyle {
+    line-height: 24px;
+    padding-left: 28px;
+    margin-top: 0;
+}

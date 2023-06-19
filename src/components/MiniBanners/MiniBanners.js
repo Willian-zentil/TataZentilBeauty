@@ -14,6 +14,7 @@ function MiniBanners() {
 
     return (
         <section className={styles.MiniBanners}>
+            <p>algum texto sobre o nosso trabalho e como fazer valorizando nossas clientes e pipipopop <em>Embelezando Belas</em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur non augue at fermentum. Aenean vitae odio in erat pretium aliquam sed sit amet ligula</p>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={3}
