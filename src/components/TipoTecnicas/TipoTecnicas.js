@@ -7,24 +7,27 @@ import 'swiper/css'
 import "swiper/css/navigation"
 import styles from './TipoTecnicas.module.css'
 
-import imgModelo1 from '../../images/fio-a-fio.png'
-import imgModelo2 from '../../images/modelo-2.png'
+import imgVolumeBasico from '../../images/volume-basico.jpeg'
+import imgVolumeIntermediario from '../../images/volume-intermediario.jpeg'
+import imgVolumeMega from '../../images/volume-mega.jpeg'
+
+
 
 function TipoTecnicas() {
     const imageArray = [
         {
-            image: imgModelo1,
-            title: 'Volumes Básicos',
+            image: 'basico',
+            title: 'Volume Básico',
             text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
         },
         {
-            image: imgModelo2,
-            title: 'Volumes intermediário',
+            image: 'intermediario',
+            title: 'Volume intermediário',
             text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
         },
         {
-            image: imgModelo2,
-            title: 'Volumes mega',
+            image: 'mega',
+            title: 'Volume mega',
             text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
         }
     ]
@@ -52,9 +55,9 @@ function TipoTecnicas() {
                     return (
                         <SwiperSlide key={index}>
                             <div className={styles.slider}>
-                                <img src={item.image} />
+                                <div className={`${item.image} ${styles.imgTipos}`}></div>
                                 <h5>{item.title}</h5>
-                                <p>{item.text}</p>
+                                <p>{/*item.text*/}</p>
                             </div>
                         </SwiperSlide>)
                 })}

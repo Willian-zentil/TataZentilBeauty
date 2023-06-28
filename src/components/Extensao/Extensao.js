@@ -1,13 +1,21 @@
 import React from 'react'
 
 import styles from './Extensao.module.css'
+import fioafio from '../../images/fio-a-fio.png'
 
 function Extensao() {
   return (
     <section className={styles.extensao} id="extensao">
-      <h2>Extensão De Cílios</h2>
-      <p>A extensão de cílios, também chamada de alongamento, é o nome que se da a técnica utilizada para dar volume e curvatura aos fios, assim te dando o conforto de estar em sua melhor versão 24h por dia, mesmo sem maquiagem</p>
-      <p>Aenean semper sagittis diam. Praesent est neque, scelerisque at nisl in, aliquam dictum purus. Suspendisse potenti. Donec mattis ex sem. In est nibh, imperdiet vitae finibus vitae, blandit a eros. Mauris maximus feugiat porta. Vestibulum dolor lorem, auctor nec pharetra quis.</p>
+      <h2>Extensão De Cílios Fio a Fio</h2>
+      <div className='container-interno-extensao'>
+        <div>
+          <p>A extensão de cílios, também chamada de alongamento, é o nome que se da a técnica utilizada para dar volume e curvatura aos fios, assim te dando o conforto de estar em sua melhor versão 24h por dia, mesmo sem maquiagem</p>
+          <p>Existem diferentes tipos de extensões de cílios, sendo umas das principais as de volume (básico, intermediário e mega) onde múltiplos fios são aplicados em cada cílio natural, proporcionando um efeito mais volumoso,</p>
+        </div>
+        <div>
+          <img src={fioafio} />
+        </div>
+      </div>
     </section>
   )
 }

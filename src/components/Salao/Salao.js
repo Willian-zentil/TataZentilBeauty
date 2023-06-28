@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { GoogleMap, useLoadScript, MarkerF } from '@react-google-maps/api'
 
 import styles from './Salao.module.css'
-import imgSalao from '../../images/salao.jpg'
+import imgSalao from '../../images/salão-tata.jpeg'
 import iconInsta from '../../images/instagram-icon.svg'
 
 function Map() {

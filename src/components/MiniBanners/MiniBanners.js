@@ -14,7 +14,7 @@ function MiniBanners() {
 
     return (
         <section className={styles.MiniBanners}>
-            <p>algum texto sobre o nosso trabalho e como fazer valorizando nossas clientes e pipipopop <em>Embelezando Belas</em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur non augue at fermentum. Aenean vitae odio in erat pretium aliquam sed sit amet ligula</p>
+            <p>Olá! sou a thais Zentil, Lash Design | Eyebrows Design e tenho como lema <em>Embelezar Belas</em>, através da técnica de extensão de cílios Fio a Fio trabalho com varios tipos de volumes, encontrando o melhor tipo para cada cliente que confia no nosso trabalho!</p>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={3}

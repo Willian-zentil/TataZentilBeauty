@@ -18,11 +18,27 @@ p {
   color: #887416;
   line-height: 32px;
   letter-spacing: 0.05em;
-  margin-bottom: 0;
+  margin: 18px auto 0;
+  max-width: 1150px;
 }
 
 em {
   font-weight: bold;
+}
+
+.basico {
+  background: url('../src/images/volume-basico.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.intermediario {
+  background: url('../src/images/volume-intermediario.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.mega {
+  background: url('../src/images/volume-mega.jpeg') no-repeat;
+  background-size: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {

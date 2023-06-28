@@ -36,6 +36,12 @@
     letter-spacing: 0.05em;
 }
 
+.imgTipos {
+    height: 400px;
+    width: 400px;
+    display: block;
+}
+
 @media(max-width: 992px){
     .tipoTecnicas p {
         padding: 38px 15px;

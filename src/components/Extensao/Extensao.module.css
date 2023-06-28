@@ -19,7 +19,18 @@
     margin-top: 0;
 }
 
-@media(max-width: 992px){
+
+.container-interno-extensao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-interno-extensao div:first-child {
+    padding-right: 60px;
+}
+
+
+@media(max-width: 992px) {
     .extensao {
         padding: 38px 15px;
     }
