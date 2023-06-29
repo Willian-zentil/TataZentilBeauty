@@ -32,7 +32,7 @@ em {
 }
 
 .intermediario {
-  background: url('../src/images/volume-intermediario.jpeg') no-repeat;
+  background: url('../src/images/volume-intermediario-2.jpeg') no-repeat;
   background-size: cover;
 }
 
@@ -44,6 +44,14 @@ em {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
   }
 }
 
@@ -66,6 +74,7 @@ em {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -73,5 +82,5 @@ em {
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #000;
+  color: #000;
 }

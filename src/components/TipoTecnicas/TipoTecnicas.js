@@ -1,10 +1,11 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Navigation } from "swiper"
+import { Navigation, Pagination } from "swiper"
 
 import 'swiper/css'
 import "swiper/css/navigation"
+import "swiper/css/pagination"
 import styles from './TipoTecnicas.module.css'
 
 import imgVolumeBasico from '../../images/volume-basico.jpeg'
@@ -39,6 +40,7 @@ function TipoTecnicas() {
                 slidesPerView={2}
                 loop={true}
                 navigation={true}
+                pagination={true}
                 breakpoints={{
                     "300": {
                       slidesPerView: 1,
@@ -49,7 +51,7 @@ function TipoTecnicas() {
                       spaceBetween: 20,
                     },
                 }}
-                modules={[Navigation]}
+                modules={[Navigation, Pagination]}
             >
                 {imageArray.map((item, index) => {
                     return (

@@ -4,10 +4,12 @@ import { Autoplay } from "swiper";
 
 import 'swiper/css';
 import styles from './MiniBanners.module.css'
+
 import image1 from '../../images/apresentacao-1.JPG'
-import image2 from '../../images/apresentacao-2.JPG'
-import image3 from '../../images/apresentacao-3.jpeg'
-import image5 from '../../images/apresentacao-5.JPG'
+import image2 from '../../images/apresentacao-8.jpeg'
+import image5 from '../../images/apresentacao-6.jpeg'
+import image3 from '../../images/apresentacao-7.jpeg'
+
 
 function MiniBanners() {
     const imageArray = [image1, image2, image3, image5]
