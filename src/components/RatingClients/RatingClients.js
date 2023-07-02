@@ -36,7 +36,7 @@ function RatingClients() {
           slidesPerView={2}
           loop={true}
           autoplay={{
-            delay: 60000
+            delay: 5000
           }}
           breakpoints={{
             "300": {
