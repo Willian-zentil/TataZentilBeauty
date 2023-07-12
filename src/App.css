@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 .App {
   text-align: center;
 }
@@ -19,7 +21,14 @@ p {
   line-height: 32px;
   letter-spacing: 0.05em;
   margin: 18px auto 0;
+  font-family: 'Roboto', sans-serif!important;
   max-width: 1150px;
+}
+
+a,
+li,
+span {
+  font-family: 'Roboto', sans-serif!important;
 }
 
 em {
@@ -27,18 +36,21 @@ em {
 }
 
 .basico {
-  background: url('../src/images/volume-basico.jpeg') no-repeat;
+  background: url('../src/images/basico.jpeg') no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 
 .intermediario {
-  background: url('../src/images/volume-intermediario-2.jpeg') no-repeat;
+  background: url('../src/images/intermediario.jpeg') no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 
 .mega {
-  background: url('../src/images/volume-mega.jpeg') no-repeat;
+  background: url('../src/images/mega.jpeg') no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -83,4 +95,12 @@ em {
 .swiper-button-next,
 .swiper-button-prev {
   color: #000;
+}
+
+.swiper-initialized.swiper-horizontal{
+  padding-bottom: 30px;
+}
+
+.swiper-pagination{
+  bottom: -4px!important;
 }

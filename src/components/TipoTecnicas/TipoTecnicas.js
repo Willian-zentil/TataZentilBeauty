@@ -8,28 +8,23 @@ import "swiper/css/navigation"
 import "swiper/css/pagination"
 import styles from './TipoTecnicas.module.css'
 
-import imgVolumeBasico from '../../images/volume-basico.jpeg'
-import imgVolumeIntermediario from '../../images/volume-intermediario.jpeg'
-import imgVolumeMega from '../../images/volume-mega.jpeg'
-
-
 
 function TipoTecnicas() {
     const imageArray = [
         {
             image: 'basico',
             title: 'Volume Básico',
-            text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
+            text: 'Nesse efeito é aplicado apenas um fio em cada cílios natural para proporcionar um olhar com maior densidade e total naturalidade.'
         },
         {
             image: 'intermediario',
             title: 'Volume intermediário',
-            text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
+            text: 'Aplicado em média 2 fios sintéticos em cada cílios natural, proporcionando um olhar com efeito mais completo. Sem muito volume porem bem mais completo que o procedimento básico.'
         },
         {
             image: 'mega',
             title: 'Volume mega',
-            text: 'Texto teste para tecnica   Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnica Texto teste para tecnicaTexto teste para tecnica'
+            text: 'São aplicados de três a dez fios em cada cílios para um olhar volumoso e glamouroso. Impossível de passar despercebida!'
         }
     ]
 
@@ -39,7 +34,7 @@ function TipoTecnicas() {
                 spaceBetween={50}
                 slidesPerView={2}
                 loop={true}
-                navigation={true}
+                navigation={false}
                 pagination={true}
                 breakpoints={{
                     "300": {
@@ -50,6 +45,10 @@ function TipoTecnicas() {
                       slidesPerView: 2,
                       spaceBetween: 20,
                     },
+                    "920": {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    },
                 }}
                 modules={[Navigation, Pagination]}
             >
@@ -59,7 +58,7 @@ function TipoTecnicas() {
                             <div className={styles.slider}>
                                 <div className={`${item.image} ${styles.imgTipos}`}></div>
                                 <h5>{item.title}</h5>
-                                <p>{/*item.text*/}</p>
+                                <p>{item.text}</p>
                             </div>
                         </SwiperSlide>)
                 })}

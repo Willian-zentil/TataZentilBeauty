@@ -7,7 +7,6 @@
     padding: 80px 0;
 }
 
-.extensao p,
 .extensao h2 {
     font-family: 'Alice', serif;
 }
@@ -45,5 +44,10 @@
 @media(max-width: 992px) {
     .extensao {
         padding: 38px 15px;
+    }
+
+    .extensao {
+        border-top: unset;
+        border-bottom: unset;
     }
 }

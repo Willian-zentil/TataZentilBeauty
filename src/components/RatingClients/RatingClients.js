@@ -16,13 +16,13 @@ const LIST_COMMENTS = [
   },
   {
     id: 2,
-    name: "Giovana Marina",
+    name: "Carol Maia",
     stars: 5,
     comment: "Esses cílios que continuam maravilhosos com sol, mar e cloro. Ela é perfeita!",
   },
   {
     id: 3,
-    name: "Joana Dark",
+    name: "Giovana Marina",
     stars: 5,
     comment: "A mãe acorda sempre pronta com os cílios da Tata, isso não tem preço.",
   },

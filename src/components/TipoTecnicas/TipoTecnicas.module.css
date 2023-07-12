@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 0;
+    padding: 0 0 80px 0;
 }
 
 .tipoTecnicas img {
@@ -16,24 +16,32 @@
 .tipoTecnicas .slider {
     max-width: 400px;
     margin: 0 auto;
+    background-color: #4B4B4D;
+    padding: 5px;
+    min-height: 680px;
 }
 
-.tipoTecnicas h5,
-.tipoTecnicas p {
-    font-family: 'Alice', serif;
-    color: #887416;
+.tipoTecnicas h5 {
     font-size: 18px;
+}
+
+.tipoTecnicas p {
+    font-size: 16px;
 }
 
 .tipoTecnicas h5 {
     text-transform: uppercase;
-    margin-bottom: 0;
+    font-family: 'Alice', serif;
+    margin-bottom: 20px;
+    color: #C1A51E;
 }
 
 .tipoTecnicas p {
     margin: 12px 0;
     line-height: 32px;
     letter-spacing: 0.05em;
+    padding: 0 20px;
+    color: #FFF;
 }
 
 .imgTipos {
@@ -43,8 +51,12 @@
 }
 
 @media(max-width: 992px){
+    .tipoTecnicas {
+        padding: 0;
+    }
+
     .tipoTecnicas p {
-        padding: 38px 15px;
+        padding: 15px 15px 0 15px;
     }
 
     .tipoTecnicas img {
@@ -54,11 +66,19 @@
 
     .tipoTecnicas .slider {
         max-width: unset;
+        min-height: 580px;
+        padding: 35px 20px;
     }
 
     .imgTipos {
         width: 320px;
         height: 320px;
         margin: 0 auto;
+    }
+}
+
+@media(max-width: 380px){
+    .tipoTecnicas .slider {
+        min-height: 640px;
     }
 }

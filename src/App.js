@@ -14,8 +14,8 @@ function App() {
     <Fragment>
       <Header />
       <MiniBanners />
-      <Extensao />
       <TipoTecnicas />
+      <Extensao />
       <RatingClients />
       <Salao />
     </Fragment>

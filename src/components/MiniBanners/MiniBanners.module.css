@@ -2,7 +2,7 @@
     max-width: 1250px;
     margin: 80px auto 80px;
     width: 100%;
-    min-height: 450px;
+    /* min-height: 450px; */
     text-align: center;
 }
 
@@ -16,8 +16,24 @@
     height: 350px;
 }
 
+.MiniBanners a {
+    text-transform: uppercase;
+    color: #C1A51E;
+    font-weight: 400;
+    text-decoration: none;
+    border: 1px solid #C1A51E;
+    padding: 12px 24px;
+    letter-spacing: 1.5px;
+}
+
 /*mobile */
 @media(max-width: 992px) {
-   
+    .MiniBanners {
+        margin: 60px auto 60px;
+    }
+
+    .MiniBanners p {
+        padding: 0 20px;
+    }
 }
 

@@ -26,10 +26,15 @@ function Salao() {
             <div className={styles.boxAdress}>
                 <img className={styles.salaoImg} src={imgSalao} />
                 <div className={styles.info}>
-                    <p className={styles.uppercase}>Endereço</p>
-                    <p>Av. Comendador José da Silva Martha</p>
-                    <p>25-66 - Vila Sao Francisco</p>
-                    <p>Bauru - SP</p>
+                    <div>
+                        <span className={styles.uppercase}>Endereço</span>
+                        <p>Av. Comendador José da Silva Martha, 25-66<br />Bauru - SP</p>
+                    </div>
+
+                    <div>
+                        <a href="https://calendly.com/tatazentilbeauty" target='_blank'>Faça seu agendamento<br/> online aqui!</a>
+                    </div>
+
                     {isLoaded && <Map />}
                 </div>
             </div>
