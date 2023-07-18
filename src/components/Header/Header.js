@@ -7,7 +7,13 @@ import video from '../../images/video.mp4'
 const Header = () => {
 
   useEffect(() => {
-    document.getElementById('vid').play();
+    const play_video = setTimeout(() => {
+      document.getElementById('vid').play();
+    }, 1500);
+
+    return () => {
+      clearTimeout(play_video)
+    }
   }, [])
 
 
