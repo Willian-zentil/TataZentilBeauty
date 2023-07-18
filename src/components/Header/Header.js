@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header id='header' className={styles.header}>
-      <video id='vid' muted loop={true} autostart={true} autoPlay={true} src={video} className={styles.video} type="video/mp4" />
+      <video id='vid' muted loop={true} autostart={true} autoPlay={true} playsinline={true} src={video} className={styles.video} type="video/mp4" />
       <div className={styles.container}>
         <div className={styles.menu}>
           <a className={styles.logoLink} href='#header'><img src={logoHeader} alt='TataZentil Beauty' className={styles.logo} /></a>
