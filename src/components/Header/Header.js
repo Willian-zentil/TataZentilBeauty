@@ -19,9 +19,9 @@ const Header = () => {
 
   return (
     <header id='header' className={styles.header}>
-      <video id='vid' muted loop={true} autostart={true} autoPlay={true} playsinline={true} src={video} className={styles.video} type="video/mp4" />
-      <div className={styles.container}>
-        <div className={styles.menu}>
+      <video id='vid' muted loop={true} preload={true} autostart={true} controls={true} autoPlay={true} playsinline={true} src={video} className={styles.video} type={"video/mp4"} />
+      <div className={styles.menu}>
+        <div className={styles.container}>
           <a className={styles.logoLink} href='#header'><img src={logoHeader} alt='TataZentil Beauty' className={styles.logo} /></a>
           <ul className='desktop'>
             <li><a href='#extensao'>Extensão De Cílios</a></li>
@@ -29,6 +29,7 @@ const Header = () => {
             <li><a href='#contato'>Contato</a></li>
           </ul>
         </div>
+        <div className={styles.backgroundDesk}></div>
         <h1 className={styles.layer}>TataZentil Beauty - Extensão de cílios</h1>
       </div>
       {/* <img className={styles.banner} src={bannerHeader} alt='Logo TataZentil' /> */}
