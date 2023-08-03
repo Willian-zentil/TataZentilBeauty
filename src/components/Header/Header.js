@@ -8,9 +8,9 @@ const Header = () => {
 
   useEffect(() => {
     const play_video = setTimeout(() => {
-      document.getElementById('vid').play();
+      document.getElementById('vid').src('../../images/video.mp4');
     }, 1500);
-
+    
     return () => {
       clearTimeout(play_video)
     }
@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header id='header' className={styles.header}>
-      <video id='vid' muted loop={true} preload={true} autostart={true} controls={true} autoPlay={true} playsinline={true} src={video} className={styles.video} type={"video/mp4"} />
+      <video id='vid' muted loop={true} autostart={true} autoPlay={true} playsinline={true} src={video} className={styles.video} type={"video/mp4"} />
       <div className={styles.menu}>
         <div className={styles.container}>
           <a className={styles.logoLink} href='#header'><img src={logoHeader} alt='TataZentil Beauty' className={styles.logo} /></a>
