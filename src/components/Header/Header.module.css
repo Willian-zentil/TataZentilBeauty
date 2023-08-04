@@ -121,6 +121,7 @@
 
     .header {
         zoom: 1.3;
+        position: relative;
     }
 
     .header .container {
