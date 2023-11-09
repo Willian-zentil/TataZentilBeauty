@@ -13,9 +13,9 @@ function App() {
   return (
     <Fragment>
       <Header>
+        <Extensao />
         <MiniBanners />
         <TipoTecnicas />
-        <Extensao />
         <RatingClients />
         <Salao />
       </Header>
