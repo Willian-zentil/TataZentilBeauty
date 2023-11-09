@@ -14,7 +14,7 @@
 }
 
 .tipoTecnicas .slider {
-    max-width: 400px;
+    width: 400px;
     margin: 0 auto;
     background-color: #4B4B4D;
     padding: 5px;

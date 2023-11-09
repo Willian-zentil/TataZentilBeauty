@@ -7,22 +7,25 @@ import 'swiper/css'
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import styles from './TipoTecnicas.module.css'
+import basico from '../../images/basico.jpeg'
+import intermediario from '../../images/intermediario.jpeg'
+import mega from '../../images/mega.jpeg'
 
 
 function TipoTecnicas() {
     const imageArray = [
         {
-            image: 'basico',
+            image: basico,
             title: 'Volume Básico',
             text: 'Nesse efeito é aplicado apenas um fio em cada cílios natural para proporcionar um olhar com maior densidade e total naturalidade.'
         },
         {
-            image: 'intermediario',
+            image: intermediario,
             title: 'Volume intermediário',
             text: 'Aplicado em média 2 fios sintéticos em cada cílios natural, proporcionando um olhar com efeito mais completo. Sem muito volume porem bem mais completo que o procedimento básico.'
         },
         {
-            image: 'mega',
+            image: mega,
             title: 'Volume mega',
             text: 'São aplicados de três a dez fios em cada cílios para um olhar volumoso e glamouroso. Impossível de passar despercebida!'
         }
@@ -56,7 +59,7 @@ function TipoTecnicas() {
                     return (
                         <SwiperSlide key={index}>
                             <div className={styles.slider}>
-                                <div className={`${item.image} ${styles.imgTipos}`}></div>
+                                <img className={styles.imgTipos} src={item.image} alt={item.title}/>
                                 <h5>{item.title}</h5>
                                 <p>{item.text}</p>
                             </div>

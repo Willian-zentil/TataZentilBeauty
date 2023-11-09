@@ -9,7 +9,7 @@ function Extensao() {
       <h2>Extensão De Cílios Fio a Fio</h2>
       <div className={styles.containerInternoExtensao}>
         <div>
-          <img src={fioafio} />
+          <img src={fioafio} alt={'extesão de cílios fio fio'} loading="lazy"/>
         </div>
         <div>
           <p>A extensão de cílios, também chamada de alongamento, é o nome que se da a técnica utilizada para dar volume e curvatura aos fios, assim te dando o conforto de estar em sua melhor versão 24h por dia, mesmo sem maquiagem</p>

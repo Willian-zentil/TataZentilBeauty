@@ -24,7 +24,7 @@ function Salao() {
         <section className={styles.salao} id="contato">
             <h2>Visite Nosso Salão</h2>
             <div className={styles.boxAdress}>
-                <img className={styles.salaoImg} src={imgSalao} />
+                <img className={styles.salaoImg} src={imgSalao} loading="lazy" />
                 <div className={styles.info}>
                     <div>
                         <span className={styles.uppercase}>Endereço</span>
@@ -32,14 +32,14 @@ function Salao() {
                     </div>
 
                     <div>
-                        <a href="https://calendly.com/tatazentilbeauty" target='_blank'>Faça seu agendamento<br/> online aqui!</a>
+                        <a href="https://calendly.com/tatazentilbeauty" target='_blank' rel="noreferrer">Faça seu agendamento<br/> online aqui!</a>
                     </div>
 
                     {isLoaded && <Map />}
                 </div>
             </div>
-            <a href={'https://www.instagram.com/tatazentilbeautylash/'} target={'_blank'}>
-                <img src={iconInsta} />
+            <a href={'https://www.instagram.com/tatazentilbeautylash/'} target={'_blank'} rel="noreferrer">
+                <img src={iconInsta} loading="lazy" />
                 @TataZentil Beauty
             </a>
         </section>

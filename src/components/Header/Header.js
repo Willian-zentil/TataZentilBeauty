@@ -31,7 +31,7 @@ const Header = () => {
       <video id='vid' muted loop={true} autostart={true} autoPlay={true} playsInline={true} src={video} className={styles.video} type={"video/mp4"} />
       <div className={styles.menu}>
         <div className={styles.container}>
-          <a className={styles.logoLink} href='#header'><img src={logoHeader} alt='TataZentil Beauty' className={styles.logo} /></a>
+          <a className={styles.logoLink} href='#header'><img src={logoHeader} alt='TataZentil Beauty' className={styles.logo} loading="lazy" /></a>
           <ul className='desktop'>
             <li><a href='#extensao'>Extensão De Cílios</a></li>
             <li><a href='#tecnicas'>Técnicas para Cílios</a></li>
