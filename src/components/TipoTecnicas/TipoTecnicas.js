@@ -7,9 +7,9 @@ import 'swiper/css'
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import styles from './TipoTecnicas.module.css'
-import basico from '../../images/basico.jpeg'
-import intermediario from '../../images/intermediario.jpeg'
-import mega from '../../images/mega.jpeg'
+import basico from '../../images/basico.webp'
+import intermediario from '../../images/intermediario.webp'
+import mega from '../../images/mega.webp'
 
 
 function TipoTecnicas() {

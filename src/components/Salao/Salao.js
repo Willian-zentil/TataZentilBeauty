@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { GoogleMap, useLoadScript, MarkerF } from '@react-google-maps/api'
 
 import styles from './Salao.module.css'
-import imgSalao from '../../images/salão-tata.jpeg'
+import imgSalao from '../../images/salão-tata.webp'
 import iconInsta from '../../images/instagram-icon.svg'
 
 function Map() {
@@ -24,7 +24,7 @@ function Salao() {
         <section className={styles.salao} id="contato">
             <h2>Visite Nosso Salão</h2>
             <div className={styles.boxAdress}>
-                <img className={styles.salaoImg} src={imgSalao} loading="lazy" />
+                <img className={styles.salaoImg} src={imgSalao} loading="lazy" alt='Nossa salão' />
                 <div className={styles.info}>
                     <div>
                         <span className={styles.uppercase}>Endereço</span>
@@ -39,7 +39,7 @@ function Salao() {
                 </div>
             </div>
             <a href={'https://www.instagram.com/tatazentilbeautylash/'} target={'_blank'} rel="noreferrer">
-                <img src={iconInsta} loading="lazy" />
+                <img src={iconInsta} loading="lazy" alt='instagram' />
                 @TataZentil Beauty
             </a>
         </section>

@@ -12,12 +12,13 @@ import './App.css';
 function App() {
   return (
     <Fragment>
-      <Header />
-      <MiniBanners />
-      <TipoTecnicas />
-      <Extensao />
-      <RatingClients />
-      <Salao />
+      <Header>
+        <MiniBanners />
+        <TipoTecnicas />
+        <Extensao />
+        <RatingClients />
+        <Salao />
+      </Header>
     </Fragment>
   );
 }

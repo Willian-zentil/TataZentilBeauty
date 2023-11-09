@@ -35,25 +35,6 @@ em {
   font-weight: bold;
 }
 
-.basico {
-  background: url('../src/images/basico.jpeg') no-repeat;
-  background-size: cover;
-  max-width: 100%;
-}
-
-.intermediario {
-  background: url('../src/images/intermediario.jpeg') no-repeat;
-  background-size: cover;
-  max-width: 100%;
-}
-
-.mega {
-  background: url('../src/images/mega.jpg') no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  background-position: bottom;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

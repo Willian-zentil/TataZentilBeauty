@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
 import styles from './Header.module.css'
-import logo from '../../images/sub marca fundo transparente 1.png'
-import logoHeader from '../../images/logomarca_fundo_transparente.png'
+import logoHeader from '../../images/logomarca_fundo_transparente.webp'
 import video from '../../images/video.mp4'
 
-const Header = () => {
+const Header = (props) => {
   useEffect(() => {
 
     const play_video = () => {
@@ -39,9 +38,9 @@ const Header = () => {
           </ul>
         </div>
         <div className={styles.backgroundDesk}></div>
-        <h1 className={styles.layer}>TataZentil Beauty - Extensão de cílios</h1>
+        <h1 className={styles.layer}>TataZentil Beauty | Extensão de cílios</h1>
       </div>
-      {/* <img className={styles.banner} src={bannerHeader} alt='Logo TataZentil' /> */}
+      {props.children}
     </header>
   )
 }
