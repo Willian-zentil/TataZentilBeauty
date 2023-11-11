@@ -3,7 +3,6 @@ import { GoogleMap, useLoadScript, MarkerF } from '@react-google-maps/api'
 
 import styles from './Salao.module.css'
 import imgSalao from '../../images/salão-tata.webp'
-import iconInsta from '../../images/instagram-icon.svg'
 
 function Map() {
     const center = useMemo(() => ({ lat: -22.3523011, lng: -49.0864202 }), [])
@@ -38,10 +37,6 @@ function Salao() {
                     {isLoaded && <Map />}
                 </div>
             </div>
-            <a href={'https://www.instagram.com/tatazentilbeautylash/'} target={'_blank'} rel="noreferrer">
-                <img src={iconInsta} loading="lazy" alt='instagram' />
-                @TataZentil Beauty
-            </a>
         </section>
     )
 }

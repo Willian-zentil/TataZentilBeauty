@@ -30,28 +30,35 @@ const LIST_COMMENTS = [
 
 function RatingClients() {
   return (
-    <section className={styles.containerBlackground}>
-      <div className={styles.containerRating}>
-        <Swiper
-          slidesPerView={2}
-          loop={true}
-          autoplay={{
-            delay: 5000
-          }}
-          breakpoints={{
-            "300": {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            "640": {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-          }}
-          modules={[Autoplay]}
-        >
-          {LIST_COMMENTS.map((item, index) => <SwiperSlide key={index}><RatingBox key={item.id} item={item} /></SwiperSlide>)}
-        </Swiper>
+    <section className={styles.containerBlackground} id="comentarios">
+      <div className={styles.rating}>
+        <h2>Oque andam dizendo</h2>
+        <div className={styles.containerRating}>
+          <Swiper
+            slidesPerView={2}
+            loop={true}
+            autoplay={{
+              delay: 5000
+            }}
+            breakpoints={{
+              "300": {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              "640": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+            }}
+            modules={[Autoplay]}
+          >
+            {LIST_COMMENTS.map((item, index) =>
+              <SwiperSlide key={index} className={styles.verticalRating}>
+                <RatingBox key={item.id} item={item} />
+              </SwiperSlide>)
+            }
+          </Swiper>
+        </div>
       </div>
     </section>
   )

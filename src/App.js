@@ -5,6 +5,7 @@ import Extensao from './components/Extensao/Extensao';
 import TipoTecnicas from './components/TipoTecnicas/TipoTecnicas';
 import Salao from './components/Salao/Salao';
 import RatingClients from './components/RatingClients/RatingClients';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 
@@ -12,13 +13,13 @@ import './App.css';
 function App() {
   return (
     <Fragment>
-      <Header>
-        <Extensao />
-        <MiniBanners />
-        <TipoTecnicas />
-        <RatingClients />
-        <Salao />
-      </Header>
+      <Header />
+      <MiniBanners />
+      <Extensao />
+      <RatingClients />
+      <TipoTecnicas />
+      <Salao />
+      <Footer />
     </Fragment>
   );
 }

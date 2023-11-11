@@ -6,14 +6,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 80px 0;
+    padding: 0 0 80px 0;
 }
 
 .salao h2 {
     color: #C1A51E;
     font-size: 46px;
     font-weight: 600;
-    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .salao p {

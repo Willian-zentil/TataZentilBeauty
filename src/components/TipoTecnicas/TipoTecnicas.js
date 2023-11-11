@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Navigation, Pagination } from "swiper"
+import { Navigation, Pagination, Autoplay } from "swiper"
 
 import 'swiper/css'
 import "swiper/css/navigation"
@@ -34,15 +34,20 @@ function TipoTecnicas() {
     return (
         <section className={styles.tipoTecnicas} id="tecnicas">
             <Swiper
-                spaceBetween={50}
+                spaceBetween={25}
                 slidesPerView={2}
                 loop={true}
                 navigation={false}
                 pagination={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
+                centeredSlides={true}
                 breakpoints={{
                     "300": {
                       slidesPerView: 1,
-                      spaceBetween: 20,
+                      spaceBetween: 0,
                     },
                     "640": {
                       slidesPerView: 2,
@@ -50,7 +55,7 @@ function TipoTecnicas() {
                     },
                     "920": {
                       slidesPerView: 3,
-                      spaceBetween: 50,
+                      spaceBetween: 25,
                     },
                 }}
                 modules={[Navigation, Pagination]}

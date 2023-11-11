@@ -8,23 +8,37 @@
     padding: 80px 0;
 }
 
+.rating {
+    padding-top: 40px;
+}
+
+.rating h2 {
+ color: #fff;
+ text-align: center;   
+ padding: 0;
+ margin-bottom: 0;
+}
+
 .MuiSvgIcon-root.MuiSvgIcon-fontSizeInherit.css-1vooibu-MuiSvgIcon-root {
-    color: #faaf00;
+    color: #2f2610;
 }
 
 .boxClient {
     display: flex;
     padding: 5%;
     align-items: center;
+    flex-direction: column;
 }
 
 .boxClient p {
     color: #fff;
     text-align: start;
+    text-align: center;
 }
 
 .containerBlackground {
-    background-color: #4B4B4D;
+    background-color: #4D4A50;
+    margin: 80px 0;
 }
 
 
@@ -36,19 +50,5 @@
 .commentStyle {
     line-height: 24px;
     padding-left: 28px;
-    margin-top: 0;
-}
-
-@media(max-width: 992px) {
-    .boxClient {
-        align-items: start;
-        flex-direction: column;
-    }
-
-    .boxClient div:first-child {
-        padding-left: 28px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: column;
-    }
+    margin-top: 20px;
 }
